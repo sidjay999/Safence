@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "author": "madhan",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "sensor_esp32", "top": 100, "left": 50, "attrs": {} },
+    { "type": "wokwi-arduino-nano", "id": "nano", "top": 100, "left": 350, "attrs": {} },
+    { "type": "wokwi-pushbutton", "id": "button", "top": 250, "left": 80, "attrs": { "color": "green" } },
+    { "type": "wokwi-led", "id": "led", "top": 250, "left": 150, "attrs": { "color": "red" } },
+    { "type": "wokwi-resistor", "id": "res1", "top": 250, "left": 200, "attrs": { "value": "220" } },
+    { "type": "wokwi-esp32-devkit-v1", "id": "receiver_esp32", "top": 100, "left": 600, "attrs": {} }
+  ],
+  "connections": [
+    [ "nano:D2", "sensor_esp32:34", "green", [ "v0" ] ],
+    [ "button:1.l", "sensor_esp32:27", "blue", [ "v0" ] ],
+    [ "button:2.r", "sensor_esp32:GND", "black", [ "v0" ] ],
+    [ "led:A", "sensor_esp32:2", "red", [ "v0" ] ],
+    [ "led:C", "res1:1", "black", [ "v0" ] ],
+    [ "res1:2", "sensor_esp32:GND", "black", [ "v0" ] ],
+    [ "sensor_esp32:TX", "receiver_esp32:RX", "purple", [ "v0" ] ]
+  ]
+}

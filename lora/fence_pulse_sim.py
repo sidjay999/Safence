@@ -1,6 +1,4 @@
-# save as fence_pulse_sim.py
-# Usage: python fence_pulse_sim.py
-# Produces CSV files in ./out/
+
 import os, csv, math, argparse
 from datetime import datetime
 import numpy as np
