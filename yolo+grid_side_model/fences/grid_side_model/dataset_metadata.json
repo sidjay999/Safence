@@ -1,0 +1,97 @@
+{
+  "dataset_info": {
+    "title": "Kerala Illegal Electric Fence Detection Dataset",
+    "description": "Synthetic dataset for detecting illegal electric fences in Kerala based on electricity consumption patterns",
+    "total_records": 9600,
+    "total_areas": 400,
+    "date_range": "2023-01-01 to 2024-12-01",
+    "suspicious_rate": "5.2%"
+  },
+  "features": {
+    "geographical": [
+      "district",
+      "city",
+      "area_name",
+      "latitude",
+      "longitude",
+      "area_type",
+      "elevation_meters",
+      "forest_proximity_km",
+      "road_accessibility"
+    ],
+    "infrastructure": [
+      "households",
+      "distance_to_substation_km",
+      "transformer_loading_pct",
+      "connection_quality_score"
+    ],
+    "temporal": [
+      "year",
+      "month",
+      "timestamp",
+      "is_summer",
+      "is_monsoon",
+      "is_winter",
+      "is_festival_month",
+      "is_school_holiday"
+    ],
+    "consumption_patterns": [
+      "expected_consumption_kwh",
+      "actual_consumption_kwh",
+      "consumption_deviation_pct",
+      "consumption_per_household",
+      "night_consumption_ratio",
+      "weekend_consumption_ratio"
+    ],
+    "power_quality": [
+      "voltage_reading_v",
+      "current_reading_a",
+      "power_factor",
+      "voltage_stability_index",
+      "harmonic_distortion_pct",
+      "frequency_deviation_hz"
+    ],
+    "network_performance": [
+      "line_loss_pct",
+      "power_loss_indicator",
+      "current_density",
+      "load_factor"
+    ],
+    "behavioral_indicators": [
+      "payment_delay_days",
+      "bill_shock_incidents",
+      "complaint_history_count",
+      "meter_tamper_alerts"
+    ],
+    "historical_analysis": [
+      "yoy_consumption_change_pct",
+      "consumption_trend_6m",
+      "consumption_coefficient_of_variation",
+      "consumption_z_score"
+    ],
+    "socio_economic": [
+      "income_level",
+      "agricultural_area",
+      "commercial_establishments",
+      "industrial_presence"
+    ],
+    "security_enforcement": [
+      "inspection_history_count",
+      "enforcement_actions",
+      "local_incident_reports"
+    ],
+    "environmental": [
+      "weather_condition",
+      "crop_season",
+      "neighbor_anomaly_count"
+    ],
+    "target_variable": [
+      "illegal_fence_suspected"
+    ]
+  },
+  "consumption_patterns": {
+    "rural_avg": "86.4 kWh/household",
+    "semi_urban_avg": "141.4 kWh/household",
+    "urban_avg": "199.3 kWh/household"
+  }
+}
