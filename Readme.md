@@ -25,7 +25,7 @@
 
 **Safence** tackles the growing problem of illegal electric fences that threaten both public safety and power grid stability. These unauthorized installations cause significant power theft, create dangerous conditions for civilians, and result in substantial revenue losses for utility companies. Traditional manual monitoring is inefficient and cannot scale to cover vast geographical areas effectively.
 
-Our comprehensive solution integrates cutting-edge technologies to create an autonomous monitoring ecosystem. The system deploys drone-based surveillance equipped with computer vision algorithms to identify illegal fence installations from aerial footage. Simultaneously, IoT sensor networks monitor power consumption patterns in real-time, detecting anomalies that indicate unauthorized electrical usage. Machine learning models analyze grid data to predict and classify suspicious activities with exceptional accuracy.
+Our comprehensive solution integrates cutting-edge technologies to create an autonomous monitoring ecosystem. The system deploys **Drone-based surveillance** equipped with computer vision algorithms to identify illegal fence installations from aerial footage. Simultaneously, IoT sensor networks monitor power consumption patterns in real-time, detecting anomalies that indicate unauthorized electrical usage. **Machine learning models** analyze grid data to predict and classify suspicious activities with exceptional accuracy.
 
 <div align="center">
 
