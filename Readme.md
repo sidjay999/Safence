@@ -1,4 +1,4 @@
-# Safence - AI-Powered Illegal Electric Fence Detection
+# Safence : AI + Iot (Edge AI ) Powered Illegal Electric Fence Detection
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-18.0+-61DAFB?logo=react)](https://reactjs.org/)
@@ -48,11 +48,16 @@ Our comprehensive solution integrates cutting-edge technologies to create an aut
 
 ## Demo & Documentation
 
+<div align="center">
+
+
 ### <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/youtube.svg" width="16" height="16" style="vertical-align: text-bottom;"> Project Demo
 [![Watch Demo](https://img.shields.io/badge/Watch%20Demo-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=7cNsytZVGlw)
 
 ### <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/notion.svg" width="16" height="16" style="vertical-align: text-bottom;"> Research Documentation
-[![View Research](https://img.shields.io/badge/View%20Research-6366F1?logo=notion&logoColor=white)](https://app.eraser.io/workspace/XtLtvYNHcFG9V9eLr2KM)
+[![View Research](https://img.shields.io/badge/View%20Research-6366F1?logo=notion&logoColor=white)](https://app.eraser.io/workspace/XtLtvYNHcFG9V9eLr2KM) 
+</div>
+
  
 ---
 
