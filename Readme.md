@@ -23,7 +23,15 @@
 
 ## Overview
 
-**Safence** addresses critical issues with illegal electric fences that cause power grid instability, public safety hazards, revenue losses, and monitoring difficulties across large areas.
+**Safence** tackles the growing problem of illegal electric fences that threaten both public safety and power grid stability. These unauthorized installations cause significant power theft, create dangerous conditions for civilians, and result in substantial revenue losses for utility companies. Traditional manual monitoring is inefficient and cannot scale to cover vast geographical areas effectively.
+
+Our comprehensive solution integrates cutting-edge technologies to create an autonomous monitoring ecosystem. The system deploys drone-based surveillance equipped with computer vision algorithms to identify illegal fence installations from aerial footage. Simultaneously, IoT sensor networks monitor power consumption patterns in real-time, detecting anomalies that indicate unauthorized electrical usage. Machine learning models analyze grid data to predict and classify suspicious activities with exceptional accuracy.
+
+<div align="center">
+
+![Team](docs/architecture/teamicon.jpg)
+
+</div>
 
 ### Solution Components
 
@@ -187,16 +195,8 @@ consumption_deviation_pct, power_factor, load_factor, seasonal_data
 ### <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/notion.svg" width="16" height="16" style="vertical-align: text-bottom;"> Research Documentation
 [![View Research](https://img.shields.io/badge/View%20Research-6366F1?logo=notion&logoColor=white)](https://app.eraser.io/workspace/XtLtvYNHcFG9V9eLr2KM)
 
+
 ---
-
-
-
-
-
-
-![Team](docs/architecture/teamicon.jpg)
-
-
 
 For support and questions:
 - <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" width="16" height="16" style="vertical-align: text-bottom;"> [Issues](https://github.com/sidjay999/Safence/issues)
