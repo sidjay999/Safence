@@ -97,6 +97,7 @@ Our comprehensive solution integrates cutting-edge technologies to create an aut
 ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?logo=opencv&logoColor=white)
 
 ### IoT & Hardware
+![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-C51A4A?logo=raspberry-pi&logoColor=white)
 ![ESP32](https://img.shields.io/badge/-ESP32-E7352C)
 ![LoRa](https://img.shields.io/badge/-LoRa-4CAF50)
 ![Arduino](https://img.shields.io/badge/-Arduino-00979D?logo=arduino&logoColor=white)
