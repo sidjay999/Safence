@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../train/images
+test: ../test/images
+
+nc: 1
+names: ['fence']
+
+roboflow:
+  workspace: electric-fence
+  project: electric-fence-konqs
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/electric-fence/electric-fence-konqs/dataset/1
