@@ -9,7 +9,11 @@
 
 > Intelligent surveillance system combining computer vision, IoT sensors, and machine learning to detect illegal electric fences and ensure power grid safety through real-time monitoring.
 
-Check out our website here : (https://zone-viz-south.vercel.app/) 
+<p>
+  Check out our website here:
+  <a href="https://zone-viz-south.vercel.app/" target="_blank">zone-viz-south.vercel.app</a>
+</p>
+
 
 ## Table of Contents
 - [Overview](#overview)
